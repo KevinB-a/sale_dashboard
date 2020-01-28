@@ -97,7 +97,49 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+header
+{
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #4D9078;
+}
+caption
+{
+  height: 45px;
+  background-color:#4D9078 ;
+  font-style: italic;
+}
+th
+{
+  height: 25px;
+  border: 1px solid black;
+}
+td
+{
+  height: 25px ;
+  border: 1px solid black;
+}
+table
+{
+  width: 80%;
+  margin:50px;
+  border-collapse: collapse;
+}
+.flexLeftContainer
+{
+  margin-right: auto;
+  width: 45%;
+}
+.tableau2
+{
+  height: 75px;
+}
+.cellwidth
+{
+  width: 50%;
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
