@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 header
 {
-  margin: 0px;
+  padding: 0;
   height: 100px;
   text-align: center;
   width: 100%;
@@ -110,16 +110,19 @@ caption
   height: 45px;
   background-color:#4D9078 ;
   font-style: italic;
+  color: white;
 }
 th
 {
   height: 25px;
+  text-align: center;
   
 }
 td
 {
   width:auto ;
   height: 25px ;
+  text-align: center;
   
 }
 table
@@ -132,6 +135,10 @@ table
 {
   margin-right: auto;
   width: 45%;
+}
+.searchBar
+{
+  width: 150px;
 }
 .tableau2
 {
@@ -173,11 +180,12 @@ table
 }
 .flexRightContainer
 {
-  margin: 10px;
+  margin: 20px;
   width: 45%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  line-height: 60px;
 }
 .flexRow
 {
@@ -186,28 +194,48 @@ table
 }
 .flexRow > div
 {
-  margin: 25px;
+  line-height: 20px;
+  margin: 10px;
   text-align: center;
   width: 120px;
   height: 120px;
   border-radius: 60px;
-  background: #F3DE8A;
+  
 }
 p
 {
   font-size: 11px;
   font-style: italic;
 }
+.circle
+{
+  background: #F3DE8A;
+}
+.circle1
+{
+  background: #EB9486;
+}
+.circle2
+{
+  background: #4D9078;
+}
+.progressBar
+{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display:flex;
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+  width: 130px;
+}
 progress
 {
-  background-color: #eee;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 3em;
-  width: 30em;
-  vertical-align: -0.6em;
-  position: relative;
+  width: 250px;
 }
+
 
 
 /* ==========================================================================

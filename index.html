@@ -10,7 +10,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -23,9 +23,9 @@
   <main class="main">
     <section class="flexLeftContainer">
       <h2>Sales and States</h2>
-      <input type="search" name="product's name" value="product's name">
+      <input class="searchBar" type="search" name="product's name" value="product's name">
       <select name="" id=""></select>
-      <input type="number">
+      <input type="number" value="0">
       <button>sort</button>
       <table>
         <caption>sales records</caption>
@@ -72,15 +72,23 @@
     <section class="flexRightContainer">
       <h2>Tendency Indicators <i class="fas fa-stethoscope"></i></h2>
       <div class="flexRow">
-      <div class="circle1">40$ <br> <p>average purchasse</p></div>
-        <div>30%<br> <p>aborded</p></div>
-        <div>25480$<br> <p>Monthly sales</p></div>
-        <div>80% <br> <p>satisfaction</p></div>
+      <div class="circle">40$ <br> <p>average purchasse</p></div>
+        <div class="circle1">30%<br> <p>aborded</p></div>
+        <div class="circle">25480$<br> <p>Monthly sales</p></div>
+        <div class="circle2">80% <br> <p>satisfaction</p></div>
       </div>
       <h3>Charts <i class="far fa-chart-bar"></i></h3>
-      <div><label for="entertaimenent">Entertaimenent  </label><progress id="file" max="100" value="40"> 40% </progress></div>
-      <div><label for="entertaimenent">High tech  </label><progress id="file" max="100" value="80"> 80% </progress></div>
-      <div><label for="entertaimenent">Clothes  </label><progress id="file" max="100" value="60"> 60% </progress></div>
+      <div class="progressBar">
+      <label for="file">Entertainement</label><progress id="file" max="100" value="40"> 40% </progress>
+    </div>
+    <section class="progressBarColumn">
+    <div class="progressBar">
+      <label for="file">High tech</label><progress id="file" max="100" value="80"> 80% </progress>
+    </div>
+    <div class="progressBar">
+      <label for="file">Clothes</label><progress id="file" max="100" value="60"> 60% </progress>
+    </div>
+  </section>
     </section>
   </main>
 
