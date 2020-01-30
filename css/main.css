@@ -110,7 +110,8 @@ h1
 }
 main
 {
-  margin: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 select
 {
@@ -133,6 +134,7 @@ caption
   background-color:#4D9078 ;
   font-style: italic;
   color: white;
+  padding: 12px;
 }
 th
 {
@@ -152,7 +154,8 @@ td
 table
 {
   width: 80%;
-  margin:50px;
+  margin: 50px;
+  margin-left: 0%;
   border-collapse: collapse;
 }
 .flexLeftContainer
@@ -249,9 +252,7 @@ p
   flex-direction: row;
   flex-wrap: nowrap;
   display:flex;
-  
 }
-
 label {
   padding-right: 10px;
   font-size: 1rem;
@@ -262,9 +263,7 @@ progress
 {
   margin: 20px;
   width: 250px;
-  
 }
-
 progress::-moz-progress-bar {
   background: #4D9078;
   /*border-radius: 12px;*/
