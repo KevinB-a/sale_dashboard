@@ -17,16 +17,34 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-  <header>
-    <h1>Sales dashboard</h1>
-  </header>
+  <nav>
+    <h1> <strong> Sales dashboard </strong></h1>
+  </nav>
   <main class="main">
     <section class="flexLeftContainer">
       <h2>Sales and States</h2>
+      <div class="buttonPosition">
+        <div>
+          <h6>Product</h6>
       <input class="searchBar" type="search" name="product's name" value="product's name">
-      <select name="" id=""></select>
+    </div>
+        <div>
+          <h6>Price</h6>
+      <select name="" id="">
+      <option value="-to+">- to +</option>
+      <option value="+to+">+ to +</option>
+
+    </select>
+        </div>
+        <div>
+          <h6>Quantity > to</h6>
       <input type="number" value="0">
+        </div> 
+        <div>
+          <h6 class="hideText">un bouton</h6> <br>
       <button>sort</button>
+    </div>
+    </div>
       <table>
         <caption>sales records</caption>
         <th>Article</th>
@@ -72,23 +90,21 @@
     <section class="flexRightContainer">
       <h2>Tendency Indicators <i class="fas fa-stethoscope"></i></h2>
       <div class="flexRow">
-      <div class="circle">40$ <br> <p>average purchasse</p></div>
-        <div class="circle1">30%<br> <p>aborded</p></div>
-        <div class="circle">25480$<br> <p>Monthly sales</p></div>
-        <div class="circle2">80% <br> <p>satisfaction</p></div>
+      <div class="circle"> <br> 40$ <br> <p>average purchasse</p></div>
+      <div class="circle1"> <br> 30%<br> <p>aborded</p></div>
+        <div class="circle"> <br> 25480$<br> <p>Monthly sales</p></div>
+        <div class="circle2"> <br> 80% <br> <p>satisfaction</p></div>
       </div>
       <h3>Charts <i class="far fa-chart-bar"></i></h3>
       <div class="progressBar">
-      <label for="file">Entertainement</label><progress id="file" max="100" value="40"> 40% </progress>
+      <label for="file">Entertainement</label><progress id="file" max="100" value="40">40%</progress>
     </div>
-    <section class="progressBarColumn">
     <div class="progressBar">
-      <label for="file">High tech</label><progress id="file" max="100" value="80"> 80% </progress>
+      <label for="file">High tech</label><progress id="file" max="100" value="80">80% </progress>
     </div>
     <div class="progressBar">
       <label for="file">Clothes</label><progress id="file" max="100" value="60"> 60% </progress>
     </div>
-  </section>
     </section>
   </main>
 
