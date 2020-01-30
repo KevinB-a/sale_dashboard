@@ -113,6 +113,10 @@ main
   margin-left: 5%;
   margin-right: 5%;
 }
+.number
+{
+  width: 100px;
+}
 select
 {
   height: 15px;
@@ -166,7 +170,7 @@ table
 }
 .searchBar
 {
-  width: 150px;
+  width: 133px;
 }
 .tableau2
 {
