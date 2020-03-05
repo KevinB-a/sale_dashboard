@@ -3,27 +3,113 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>sale dashboard</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
-
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <nav>
+    <h1> <strong> Sales dashboard </strong></h1>
+  </nav>
+  <main class="main">
+    <section class="flexLeftContainer">
+      <h2>Sales and States</h2>
+      <div class="buttonPosition">
+        <div>
+          <h6>Product</h6>
+      <input class="searchBar" type="search" name="product's name" value="product's name">
+    </div>
+        <div>
+          <h6>Price</h6>
+      <select name="" id="">
+      <option value="-to+">- to +</option>
+      <option value="+to+">+ to +</option>
+    </select>
+        </div>
+        <div>
+          <h6>Quantity > to</h6>
+      <input class="number" type="number" value="0">
+        </div> 
+        <div>
+          <h6 class="hideText">un bouton</h6> <br>
+      <button>sort</button>
+    </div>
+    </div>
+      <table>
+        <caption>sales records</caption>
+        <th>Article</th>
+        <th>Price</th>
+        <th>Quantiy</th>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+      </table>
+      <table>
+        <tr class="tableau2">
+          <td class="cellwidth"><i class="fas fa-boxes"></i> Stock</td>
+          <td class="cellwidth1"><i class="fas fa-dollar-sign"></i> Cash</td>
+        </tr>
+        <tr class="tableau2">
+          <td class="cellwidth2"><i class="fas fa-trophy"></i> Conversation</td>
+          <td class="cellwidth3"><i class="fas fa-warehouse"></i> Warehouse</td>
+        </tr>
+      </table>
+    </section>
+    <section class="flexRightContainer">
+      <h2>Tendency Indicators <i class="fas fa-stethoscope"></i></h2>
+      <div class="flexRow">
+      <div class="circle"> <br> 40$ <br> <p>average purchasse</p></div>
+      <div class="circle1"> <br> 30%<br> <p>aborded</p></div>
+        <div class="circle"> <br> 25480$<br> <p>Monthly sales</p></div>
+        <div class="circle2"> <br> 80% <br> <p>satisfaction</p></div>
+      </div>
+      <h3>Charts <i class="far fa-chart-bar"></i></h3>
+      <div class="progressBar">
+      <label for="file">Entertainement</label><progress id="file" max="100" value="40">40%</progress>
+    </div>
+    <div class="progressBar">
+      <label for="file">High tech</label><progress id="file" max="100" value="80">80% </progress>
+    </div>
+    <div class="progressBar">
+      <label for="file">Clothes</label><progress id="file" max="100" value="60"> 60% </progress>
+    </div>
+    </section>
+  </main>
+
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
